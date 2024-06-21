@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>dauntless</title>
+    <script src="https://kit.fontawesome.com/29197b26e3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--header start-->
+  <div class="container">
+    <nav class="navbar">
+      <h2 class="logo">Dauntless</h2>
+      
+      <ul class="navbar-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+      
+      <button class="pitch"><a href="#">Pitch for Investment</a></button>
+
+      <button class="navbar-toggle-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </nav>
+    <script>
+      const button = document.querySelector(".navbar-toggle-icon");
+      const navBarMenu = document.querySelector(".navbar-menu");
+
+      button.addEventListener("click", mobileMenu);
+
+      function mobileMenu() {
+      button.classList.toggle("active");
+      navBarMenu.classList.toggle("active");
+    }
+      const navLink = document.querySelectorAll(".navbar-menu li");
+      
+      navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+      function closeMenu() {
+      button.classList.remove("active");
+      navBarMenu.classList.remove("active");
+    }
+    
+    </script>
+  </div>
+  <!--header end-->
+
+  <!--CTA 1 start-->
+  <div class="general">
+    
+    <div class="banner">
+      <h2>EARN A LOT OF MONEY FROM<br>HOME AND RETIRE EARLY</h2>
+      <p>with our platform you can earn a lot money by working a remote Job.</p>
+      <button class="btn"><a href="#"></a>Get Started</button>
+    </div>
+  </div>
+  <!--CTA 1 end-->
+
+  <!--section 1 starts-->
+  <div class="section-1">
+    <div class="sec-1">
+      <h2>Welcome to the world of <br>crypto</h2>
+      <p>Secure your financial future by embracing the lasting value of gold with Resilience-Finance. <br> Join us in making informed investments and experience the timeless strength of this precious <br> metal.<br> <br> Diversify your portfolio, mitigate risk, and start building a resilient financial future today.
+
+       <br> Invest in gold with Resilience-Finance and unlock the power of precious metals for your financial <br> well-being.<br>  <br> Your future deserves the resilience that gold can provide.</p>
+       <button class="btn-2">About us</button>
+    </div>
+
+    <div class="thumb-container">
+        <img src="Images/thumb.png">
+    </div>  
+
+  </div> 
+  <!--section 1 ends-->
+
+  <!--section 2 starts-->
+  <div class="section-2">
+    <div class="sec-2">
+      <h3>OUR FUNDS</h3>
+      <hr>
+    </div>
+
+    <diV class="cta-2">
+      <h2>Investing In The Most Ambitious Entrepreneurs</h2>
+      <p>Midven currently manages a range of funds representing over £110m.<br> Each fund has specific investment criteria but are all focused on early-<br>stage businesses and SMEs.</p>
+    </diV>
+
+  </div>
+  <!--section 2 ends-->
+  
+  <!--flexbox 1 starts-->
+  <div class="flexbox-1">
+    <div class="flex-1">
+      <h2>The Midlands Engine Investment Fund (MEIF)</h2>
+      <p>Through the MEIF, we provide capital of up to £2m for businesses with high growth potential across the West Midlands.</p>
+      <hr>
+      <button>Learn more</button>
+    </div>
+
+    <div class="flex-2">
+      <h2>The West Midlands Co-Investment Fund (WMCO)</h2>
+      <p>With the WMCO, we support innovative businesses with equity of up to £1m, helping you expand and grow the region’s companies of the future.</p>
+      <hr>
+      <button>Learn more</button>
+    </div>
+
+    <div class="flex-3">
+      <h2>Legacy Funds</h2>
+      <p>Since our early beginnings, we’ve supported growth in the Midlands. See our legacy funds and their impact here.</p>
+        <hr>
+        <button>Learn more</button>
+    </div>
+
+  </div>
+  <!--flexbox 1 ends-->
+  <div class="section-3">
+    <div class="sec-3">
+      <h2>What We Look For</h2>
+      <p>If you have a well-developed proposition and vision and a<br> talented management team, we want to hear from you. To us,<br> risk is opportunity – we embrace it. We focus heavily on the<br> positive aspects and see possibilities where others may see<br> challenges.
+
+       <p>We want to work with businesses with high <br> growth potential that can help supercharge the <br> regional economy. While we’re sector agnostic, we <br> have proven expertise in scaling up companies in<br> technology and SaaS.</p>
+    </div>
+
+    <div class="list-1">
+      <ul>
+        <li>Based in the West Midlands</li>
+        <li>Revenue generating</li>
+        <li>Fast growing SME</li>
+        <li>Requiring up to £1m in an initial funding round</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="section-4">
+    <div class="timeline-1">
+      <img src="Images/section.jpg">
+    </div>  
+
+    <div class="sec-4">
+      <h2>How To Get Funding</h2>
+      <p>The first step in your funding journey is to<br> ensure you have a solid pitch deck that shows<br> exactly what your business is about and its<br> potential. We’re always looking for exciting,<br> innovative entrepreneurs so give us a call or fill<br> out our investment form to discuss your<br> company and options.</p>
+      <button>Pitch for Investment</button>
+    </div>
+
+  </div>
+
+  <div class="section-5">
+    <div class="sec-5">
+      <h3>LATEST NEWS</h3>
+      <hr>
+    </div>
+  </div>
+
+
+  <div class="container-2">
+    <div class="con-1">
+      <img src="Images/con1.jpg" alt="Augmented Reality Digital Therapeutics Software for Parkinson's Disease Attracts £2.1 Million Investment">
+      <h3><a href="#">Augmented Reality Digital Therapeutics Software for Parkinson’s Disease Attracts £2.1…</a></h3>
+      <p>This funding forms part of a larger £2.1 million seed investment round led…</p>
+      <button>Learn more</button>
+    </div>
+
+    <div class="con-2">  
+      <img src="Images/con2.jpg" alt="Camping and Outdoor Leisure Experts OLPRO Secure £1 Million Investment">
+      <h3><a href="#">Camping and Outdoor Leisure Experts OLPRO Secure £1 Million Investment</a></h3>
+      <p>Worcester-based OLPRO Ltd has secured a £1,075,000 investment…</p>
+      <button>Learn more</button>
+    </div>
+
+    <div class="con-3">
+      <img src="Images/con3.jpg" alt="Knowledge experience platform secures seven-figure investment">
+      <h3><a href="#">Knowledge experience platform secures seven-figure investment</a></h3>
+      <p>Knowledge experience platform secures seven-figure investment</p>
+      <button>Learn more</button>
+    </div>
+
+    <div class="con-4">
+      <img src="Images/con4.jpg" alt="Award-Winning Birmingham Afro Hair Care Solutions Company Secures £530,000 Investment">
+      <h3><a href="#">Award-Winning Birmingham Afro Hair Care Solutions Company Secures £530,000 Investment</a></h3>
+      <p>Award-winning Afro hair care company Nylah’s Naturals has raised a £530k seed round…</p>
+      <button>Learn more</button>
+    </div>
+
+    <div class="con-5">
+      <img src="Images/con5.jpg" alt="Revolutionary ostomy-product company secures £457,000 MEIF investment">
+      <h3><a href="#">Revolutionary ostomy-product company secures £457,000 MEIF investment</a></h3>
+      <p>Medical design company Ostique has secured £457,000 from the Midlands Engine Investment Fund…</p>
+      <button>Learn more</button>
+    </div>
+
+    <div class="con-6">
+      <img src="Images/con6.jpg" alt="A precision utilities data solutions company secures £575,000 investment">
+      <h3><a href="#">A precision utilities data solutions company secures £575,000 investment</a></h3>
+      <p>West Midlands-based utilities data solutions company IDenteq has…</p>
+      <button>Learn more</button>
+    </div>
+
+  </div>
+
+<div class="allpostslink">
+  <a href="#" class="button button--link">
+    See More Posts
+  </a>
+</div>
+
+<div class="wta">
+  <div class="ta-1">
+    <h3>CO-INVESTMENT</h3>
+    <hr>
+  </div>
+
+  <div class="ta-2">
+   <h2>Help Us Make the West Midlands Thrive</h2> 
+   <p>Interested in investing alongside Midven? We want to foster collaboration across investment options throughout the West Midlands and create a fertile environment for growth. Help power up the region.</p>
+   <button>Contact Us</button>
+  </div>
+
+</div>
+
+
+<!--footer starts here-->
+<div class="footer">
+    <div class="footer-left">
+      <div class="logos">
+        <h1>Dauntless</h1>
+      </div>
+      <div class="content">
+        <div class="copy">
+          <p>
+            © Future Planet Capital (Ventures) Limited, t/a Midven 2022. All Rights Reserved. Future Planet Capital (Ventures) Limited, t/a Midven, is Authorised and Regulated in the UK by the Financial Conduct Authority FRN 148549.
+            <br>
+            Registered in England and Wales. Company Number 2500898
+            <br>
+            Registered Address: Future Planet Capital (Ventures) Limited, t/a Midven, c/o WeWork, 55 Colmore Row, Birmingham, B3 2AA
+          </p>
+        </div>
+      </div>
+ 
+       <div class="footer-menu">
+        <ul class="menu-foot">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Pitch for Investment</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+       </div>
+    </div>
+
+    <div class="footer-middle"></div>
+
+    <div class="footer-right">
+      <h2>Stay Updated!</h2>
+      <div class="rightextra">
+        <input type="multipart/form data" id="searchbar" placeholder="Your email address" autocomplete><p><i class="fa-solid fa-address-card"></i></p>
+      
+      </div>
+      <div class="icons">
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+    
+    </div>
+
+</div>
+</body>
+</html>
